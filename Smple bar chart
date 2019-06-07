@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+#to create a simple pie chart in machine learning using matplotlib package
+
+percentage=[60,30,10]
+language=["python","java","c++"]
+plt.pie(percentage,labels=language)
+plt.title("Simple pie chart")
+plt.show()
+
+#to create simple bar chart in machine learning using matplotlib package
+
+plt.bar([1,2,3],[5,2,1])
+plt.xlabel("This is x-axis label ")
+plt.ylabel("This is y-axis label ")
+plt.title("Simple bar chart ")
+plt.show()
+
+
+
+
